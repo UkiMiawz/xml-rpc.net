@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRpcServiceLib", "XmlRpcS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRpcWebService", "XmlRpcWebService\XmlRpcWebService.csproj", "{5B6EE2AD-8950-40FC-A3E2-275BBFB9D542}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRpcClient", "XmlRpcClient\XmlRpcClient.csproj", "{59C2A2FD-FD74-4009-96FB-46240306566D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5B6EE2AD-8950-40FC-A3E2-275BBFB9D542}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5B6EE2AD-8950-40FC-A3E2-275BBFB9D542}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5B6EE2AD-8950-40FC-A3E2-275BBFB9D542}.Release|Any CPU.Build.0 = Release|Any CPU
+		{59C2A2FD-FD74-4009-96FB-46240306566D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{59C2A2FD-FD74-4009-96FB-46240306566D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{59C2A2FD-FD74-4009-96FB-46240306566D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{59C2A2FD-FD74-4009-96FB-46240306566D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
