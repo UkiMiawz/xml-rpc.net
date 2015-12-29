@@ -8,6 +8,9 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRpcWebService", "XmlRpcWebService\XmlRpcWebService.csproj", "{5B6EE2AD-8950-40FC-A3E2-275BBFB9D542}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XmlRpcClient", "XmlRpcClient\XmlRpcClient.csproj", "{59C2A2FD-FD74-4009-96FB-46240306566D}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5B6EE2AD-8950-40FC-A3E2-275BBFB9D542} = {5B6EE2AD-8950-40FC-A3E2-275BBFB9D542}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
